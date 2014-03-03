@@ -1,0 +1,64 @@
+body{
+    background-color: #474949;
+}
+.block{
+    text-align: center;
+}
+.block h1{
+    font-size: 35px;
+}
+.block:before{
+    content: " ";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+.login{
+    display: inline-block;
+    vertical-align: middle;
+    width: 440px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.table th{
+    color: white;
+}
+.table.table-condensed td{
+    height: 30px;
+    vertical-align: middle;
+}
+
+.table.table-condensed td > .btn{
+    padding: 5px;
+}
+.active-user{
+    font-weight: bold;
+    text-align:center;
+}
+
+table .btn-success, table .btn-disabled{
+    text-align: left;
+    width: 80px;
+}
+
+.teams-info{
+    color:white;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 80px;
+    height: 100px;
+    width: 100px;
+    border-radius: 120px;
+}
+.teams-info p{
+    font-weight: bold;
+    margin-top: -50px;
+}
+
+.alert-login{
+	position: fixed;
+	z-index: 7000;
+	width: 100%;
+	color: white;
+}
